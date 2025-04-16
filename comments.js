@@ -7,7 +7,7 @@ import {
   onSnapshot,
   query,
   orderBy
-} from "https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js";
+} from "firebase/firestore";
 
 const commentInput = document.getElementById("comment-input");
 const commentsContainer = document.getElementById("comments-container");
