@@ -4,7 +4,7 @@ import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
   signOut
-} from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
+} from "firebase/auth";
 
 window.signInUser = () => {
   const email = document.getElementById("email").value;
